@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Icon, Header } from 'semantic-ui-react';
+import { Header } from 'semantic-ui-react';
 import './App.css';
 import TransportControls from './components/TransportControls';
 
