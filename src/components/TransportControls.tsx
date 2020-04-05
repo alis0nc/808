@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Icon, Input, Label } from 'semantic-ui-react';
+import { Button, Container, Icon, Input, Label } from 'semantic-ui-react';
 
 const BpmInput = (props : { id: string | undefined }) => {
   const { id } = props;
@@ -28,7 +28,7 @@ const BpmInput = (props : { id: string | undefined }) => {
 export default class TransportControls extends Component {
   render() {
     return (
-      <>
+      <Container>
         <Button.Group>
           <Button icon aria-label='Play'>
             <Icon name='play' />
@@ -38,7 +38,7 @@ export default class TransportControls extends Component {
           </Button>
         </Button.Group>{' '}
         <BpmInput id='bpm'/>
-      </>
+      </Container>
     )
   }
 }
