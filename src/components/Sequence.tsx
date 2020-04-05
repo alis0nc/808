@@ -51,6 +51,8 @@ const InstrumentRow = (props: InstrumentRowProps) => {
     </Grid.Row>
   )};
 
+// TODO: Header row with number of step
+
 export default function Sequence() {
   return (
     <Container>
